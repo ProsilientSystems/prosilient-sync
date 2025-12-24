@@ -1,0 +1,3 @@
+pub const CLIENT_EXPIRATION_SECS: i64 = 60*24*60*60*60;
+
+pub const MAX_MISSED_CLIENT_PINGS: i32 = 4;

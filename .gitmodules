@@ -1,0 +1,3 @@
+[submodule "prosilient-geri-protobuf"]
+	path = prosilient-geri-protobuf
+	url = https://github.com/ProsilientSystems/prosilient-geri-protobuf

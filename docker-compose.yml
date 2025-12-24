@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    prosilient_sync:
+      container_name: prosilient_sync
+      image: prosilient-sync
+      ports:
+        - 8080:8080
+      environment:
+        - DATABASE_URL
+        - PORT
+        - RUST_LOG
